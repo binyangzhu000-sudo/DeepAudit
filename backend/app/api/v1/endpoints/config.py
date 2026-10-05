@@ -22,6 +22,7 @@ router = APIRouter()
 SENSITIVE_LLM_FIELDS = [
     'llmApiKey', 'geminiApiKey', 'openaiApiKey', 'claudeApiKey',
     'qwenApiKey', 'deepseekApiKey', 'zhipuApiKey', 'moonshotApiKey',
+    'atlascloudApiKey',
     'baiduApiKey', 'minimaxApiKey', 'doubaoApiKey'
 ]
 SENSITIVE_OTHER_FIELDS = ['githubToken', 'gitlabToken']
@@ -71,6 +72,7 @@ class LLMConfigSchema(BaseModel):
     deepseekApiKey: Optional[str] = None
     zhipuApiKey: Optional[str] = None
     moonshotApiKey: Optional[str] = None
+    atlascloudApiKey: Optional[str] = None
     baiduApiKey: Optional[str] = None
     minimaxApiKey: Optional[str] = None
     doubaoApiKey: Optional[str] = None
