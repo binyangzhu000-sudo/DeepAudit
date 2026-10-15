@@ -176,6 +176,7 @@ class LLMService:
             'deepseek': LLMProvider.DEEPSEEK,
             'zhipu': LLMProvider.ZHIPU,
             'moonshot': LLMProvider.MOONSHOT,
+            'atlascloud': LLMProvider.ATLASCLOUD,
             'baidu': LLMProvider.BAIDU,
             'minimax': LLMProvider.MINIMAX,
             'doubao': LLMProvider.DOUBAO,
